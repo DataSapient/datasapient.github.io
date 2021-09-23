@@ -1,0 +1,82 @@
+<!--
+██████╗░██╗░░░██╗  ░█████╗░██████╗░░█████╗░██████╗░░██████╗██╗░░██╗
+██╔══██╗╚██╗░██╔╝  ██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔════╝██║░░██║
+██████╦╝░╚████╔╝░  ███████║██║░░██║███████║██████╔╝╚█████╗░███████║
+██╔══██╗░░╚██╔╝░░  ██╔══██║██║░░██║██╔══██║██╔══██╗░╚═══██╗██╔══██║
+██████╦╝░░░██║░░░  ██║░░██║██████╔╝██║░░██║██║░░██║██████╔╝██║░░██║
+╚═════╝░░░░╚═╝░░░  ╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝
+
+██████╗░░█████╗░████████╗██╗░░██╗░█████╗░██╗░░██╗░░░  ██████╗░░█████╗░██████╗░░░███╗░░░░░
+██╔══██╗██╔══██╗╚══██╔══╝██║░░██║██╔══██╗██║░██╔╝░░░  ╚════██╗██╔══██╗╚════██╗░████║░░░░░
+██████╔╝███████║░░░██║░░░███████║███████║█████═╝░░░░  ░░███╔═╝██║░░██║░░███╔═╝██╔██║░░░░░
+██╔═══╝░██╔══██║░░░██║░░░██╔══██║██╔══██║██╔═██╗░██╗  ██╔══╝░░██║░░██║██╔══╝░░╚═╝██║░░░░░
+██║░░░░░██║░░██║░░░██║░░░██║░░██║██║░░██║██║░╚██╗╚█║  ███████╗╚█████╔╝███████╗███████╗██╗
+╚═╝░░░░░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝░╚╝  ╚══════╝░╚════╝░╚══════╝╚══════╝╚═╝
+
+Reach out -> pathak[dot]adarsh[at][gmail][dot-com]
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>128 Game - &copy; Adarsh Pathak.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="game-data">
+            <div class="score">
+                <p>Score: <strong id="score">0</strong></p>
+                <p>Best: <strong id="best">0</strong></p>
+            </div>
+            <div class="message">
+                <p id="message"></p>
+            </div>
+            <div class="restart">
+                <button onclick="generate_game(arr);">Restart</button>
+            </div>
+        </div>
+        <div class="wrapper">
+            <table id="game">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</body>
+
+</html>
